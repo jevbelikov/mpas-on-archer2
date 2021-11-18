@@ -18,7 +18,7 @@ import cartopy.crs as ccrs
 
 ###############################
 ### change for your run:
-input_path = '/home/nicolin/PRACE_Summer21/VISUALIZATION/LATLONS'
+input_path = '/home/project/LATLONS'
 # ['surface_pressure', 'u_pv', 'v_pv', 'theta_pv', 'vort_pv', 'depv_dt_diab_pv', 'depv_dt_fric_pv', 'iLev_DT', 'i_rainnc', 'rainnc', 'precipw', 'cuprec', 'i_rainc', 'rainc', 'kpbl', 'hpbl', 'hfx', 'qfx', 'cd', 'cda', 'ck', 'cka', 'lh', 'u10', 'v10', 'q2', 't2m', 'th2m', 'gsw', 'glw', 'acsnow', 'xland', 'skintemp', 'snow', 'snowh', 'sst', 'vegfra', 'xice']
 input_var = 1 # plot variable 
 input_title = 'Zonal-wind' #plot title and output name as input_title.gif NO SPACES!
