@@ -17,6 +17,10 @@ from cartopy import config
 import cartopy.crs as ccrs
 
 ###############################
+### This python script animates n latlon.nc output files from MPAS!
+### Before executing the script make sure:
+###   (1) history_date.nc are converted to latlon_date.nc files (see eg https://github.com/mgduda/convert_mpas)'
+###   (2) latlon.nc files are in one directory whith nothing else in it'
 ### change for your run:
 input_path = '/home/project/LATLONS'
 # ['surface_pressure', 'u_pv', 'v_pv', 'theta_pv', 'vort_pv', 'depv_dt_diab_pv', 'depv_dt_fric_pv', 'iLev_DT', 'i_rainnc', 'rainnc', 'precipw', 'cuprec', 'i_rainc', 'rainc', 'kpbl', 'hpbl', 'hfx', 'qfx', 'cd', 'cda', 'ck', 'cka', 'lh', 'u10', 'v10', 'q2', 't2m', 'th2m', 'gsw', 'glw', 'acsnow', 'xland', 'skintemp', 'snow', 'snowh', 'sst', 'vegfra', 'xice']
